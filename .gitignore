@@ -1,23 +1,28 @@
-# Common heavy folders
-node_modules/
-venv/
+# Ignore virtual environments
+.venv/
+
+# Ignore Keras and TensorFlow model files
+*.keras
+*.h5
+*.pb
+*.ckpt
+
+# Ignore compiled shared libraries
+*.dylib
+*.so
+
+# Ignore Tensorflow huge extension files
+*.whl
+*.tar.gz
+*.egg-info/
+
+# Misc
 .DS_Store
 __pycache__/
 *.zip
-*.tar.gz
-*.mp4
 *.mov
-*.wav
-*.mp3
+*.mp4
 *.avi
 *.mkv
-*.exe
-*.iso
-
-# Other unnecessary files
-*.log
-*.tmp
-*.bak
-*.cache
-*.ipynb_checkpoints/
-
+*.mp3
+*.wav
