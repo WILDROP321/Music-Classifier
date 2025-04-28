@@ -26,3 +26,5 @@ __pycache__/
 *.mkv
 *.mp3
 *.wav
+.venv/
+*.keras
