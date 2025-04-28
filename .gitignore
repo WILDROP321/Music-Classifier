@@ -1,0 +1,23 @@
+# Common heavy folders
+node_modules/
+venv/
+.DS_Store
+__pycache__/
+*.zip
+*.tar.gz
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.avi
+*.mkv
+*.exe
+*.iso
+
+# Other unnecessary files
+*.log
+*.tmp
+*.bak
+*.cache
+*.ipynb_checkpoints/
+
